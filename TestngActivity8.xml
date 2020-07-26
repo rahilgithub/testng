@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="classes">
+    <test name="Tests">
+        <classes>
+            <class name="TestngPractice.VerifyTitle"/>
+            <class name="TestngPractice.SkipException_Activity2"/>
+            <class name="TestngPractice.Login_Activity3"/>
+            <class name="TestngPractice.DemoOne"/>
+            <class name="TestngPractice.Activity5"/>
+            <class name="TestngPractice.Activity6"/>
+             <class name="TestngPractice.Activity7"/>
+        </classes>
+    </test>
+</suite>
